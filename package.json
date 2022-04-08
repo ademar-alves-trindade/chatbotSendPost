@@ -1,0 +1,26 @@
+{
+  "name": "botzdg-baileys",
+  "version": "1.0.0",
+  "main": "initializer.js",
+  "license": "ISC",
+  "author": {
+    "name": "Pedrinho da Nasa",
+    "url": "https://github.com/pedroherpeto/botzdg-baileys.git"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "app": "node ./index.js",
+    "test": "nodemon ./index.js"
+  },
+  "dependencies": {
+    "@adiwajshing/baileys": "^4.0.1",
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0",
+    "pino": "^7.8.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
